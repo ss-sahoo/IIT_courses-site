@@ -1,0 +1,123 @@
+.opportunities {
+  margin: 4rem 0rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.opportunities > h4 {
+  font-size: 3rem;
+  color: #595961;
+}
+.opportunities > h4 > span {
+  color: #992e9d;
+}
+.opportunities_content {
+  display: flex;
+  gap: 1rem;
+}
+.opportunities_content_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9ebfc;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0;
+}
+.opportunities_content_left > h4 {
+  font-size: 2.5rem;
+  width: 260px;
+  color: #595961;
+  text-align: center;
+  margin: 0;
+}
+.opportunities_content_left > h4 > span {
+  color: #992e9d;
+}
+.opportunities_content_left > img {
+  margin: 0;
+}
+.opportunities_content_right {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+
+  background: #fffcea;
+  border-radius: 1rem;
+  margin: 0;
+}
+.opportunities_content_right > h4 {
+  color: #481900;
+  font-size: 2rem;
+  margin: 0 3rem;
+  text-align: left;
+}
+.opportunities_content_right > p {
+  margin: 1rem 3rem;
+  width: 400px;
+}
+.opportunities_content_right > img {
+  margin-top: 2rem;
+}
+.opportunities_content_left_buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+.opportunities_content_left_buttons > Button {
+  background: #992e9d !important;
+}
+.home_button1 {
+  margin-top: 0rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f4d6f8;
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+  color: #992e9d;
+}
+
+.home_button_title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.home_button_icon {
+  width: fit-content;
+  height: fit-content;
+  color: #992e9d !important;
+}
+@media screen and (max-width: 426px) {
+  .opportunities {
+    margin: 1rem;
+    justify-content: center;
+  }
+  .opportunities > h4 {
+    font-size: 1.5rem;
+  }
+  .opportunities_content {
+    flex-direction: column;
+  }
+  .opportunities_content_left {
+    margin-bottom: 1rem;
+    width: 300px;
+  }
+  .opportunities_content_left > h4 {
+    font-size: 1rem;
+    width: 230px;
+  }
+  .opportunities_content_left > img {
+    width: 250px;
+  }
+  .opportunities_content_right {
+    width: 300px;
+  }
+  .opportunities_content_right > h4 {
+    font-size: 1rem;
+  }
+  .opportunities_content_right > p {
+    width: 250px;
+  }
+}

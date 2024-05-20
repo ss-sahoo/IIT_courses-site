@@ -1,0 +1,21 @@
+.workStep {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #ffffff, #fcf5fe);
+  gap: 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 250px;
+}
+.workstep > h4 {
+  font-size: 1.5rem;
+}
+.workStep > div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.workStep > p {
+  color: #595961;
+}
+@media screen and (max-width: 426px) {
+}
